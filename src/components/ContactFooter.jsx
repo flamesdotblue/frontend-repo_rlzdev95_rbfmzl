@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion';
-import { Mail, Phone, MapPin, WhatsappLogo } from 'lucide-react';
+import { Mail, Phone, MapPin, Whatsapp } from 'lucide-react';
 
 const ContactFooter = () => {
   return (
@@ -78,7 +78,7 @@ const ContactFooter = () => {
             </nav>
             <div className="flex items-center gap-4">
               <a aria-label="WhatsApp" href="https://wa.me/919000000000" className="rounded-full bg-[#25D366] p-3 text-white transition hover:scale-105">
-                <WhatsappLogo className="h-5 w-5" />
+                <Whatsapp className="h-5 w-5" />
               </a>
             </div>
           </div>
@@ -91,7 +91,7 @@ const ContactFooter = () => {
         className="fixed bottom-6 right-6 z-40 inline-flex animate-bounce items-center justify-center rounded-full bg-[#25D366] p-4 text-white shadow-xl"
         aria-label="Chat on WhatsApp"
       >
-        <WhatsappLogo className="h-6 w-6" />
+        <Whatsapp className="h-6 w-6" />
       </a>
     </div>
   );

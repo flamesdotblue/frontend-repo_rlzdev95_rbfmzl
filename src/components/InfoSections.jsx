@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion';
-import { Home, Shield, Dog, Truck, Map, Camera, Sandwich, Package } from 'lucide-react';
+import { Home, Shield, Dog, Truck, Map, Camera, Utensils, Package } from 'lucide-react';
 import { useEffect, useRef } from 'react';
 
 const fadeIn = {
@@ -41,7 +41,7 @@ const ServicesCarousel = () => {
     { icon: Home, title: 'Door-to-Door Pet Relocation', desc: 'Seamless pickup and delivery right to your home.' },
     { icon: Truck, title: 'Intercity & Interstate Transport', desc: 'Safe long-distance travel across India.' },
     { icon: Camera, title: 'Live Tracking & Video Updates', desc: 'Stay connected with updates throughout the trip.' },
-    { icon: Sandwich, title: 'Feeding & Comfort Stops', desc: 'Scheduled breaks for meals, water, and walks.' },
+    { icon: Utensils, title: 'Feeding & Comfort Stops', desc: 'Scheduled breaks for meals, water, and walks.' },
     { icon: Package, title: 'Custom Pet Crates', desc: 'Comfortable crates tailored to your pet’s size.' },
   ];
 
